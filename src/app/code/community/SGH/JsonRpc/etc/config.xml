@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SGH_JsonRpc>
+             <version>1.0.0</version>
+        </SGH_JsonRpc>
+    </modules>
+    <global>
+        <models>
+            <sgh_jsonrpc>
+                <class>SGH_JsonRpc_Model</class>
+            </sgh_jsonrpc>
+        </models>
+        <helpers>
+            <sgh_jsonrpc>
+                <class>SGH_JsonRpc_Helper</class>
+            </sgh_jsonrpc>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <api>
+                <args>
+                    <modules>
+                        <sgh_jsonrpc before="Mage_Api">SGH_JsonRpc_Api</sgh_jsonrpc>
+                    </modules>
+                </args>
+            </api>
+        </routers>
+    </frontend>
+</config>

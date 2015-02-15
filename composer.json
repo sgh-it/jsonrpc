@@ -1,0 +1,16 @@
+{
+    "name": "sgh/jsonrpc",
+    "license": "osl-3.0",
+    "type": "magento-module",
+    "description": "API adapter for JSON-RPC format (works as XML-RPC from Magento core)",
+    "homepage": "http://www.sgh-it.eu/",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Fabian Schmengler",
+            "email":"fschmengler@sgh-it.eu"
+        }
+    ]
+}

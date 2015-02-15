@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SGH_JsonRpc>
+             <active>true</active>
+             <codePool>community</codePool>
+             <depends>
+                <Mage_Api />
+             </depends>
+        </SGH_JsonRpc>
+    </modules>
+</config>

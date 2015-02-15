@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <api>
+        <adapters>
+            <jsonrpc>
+                <model>sgh_jsonrpc/api_server_adapter_jsonrpc</model>
+                <handler>default</handler>
+                <active>1</active>
+            </jsonrpc>
+        </adapters>
+    </api>
+</config>
